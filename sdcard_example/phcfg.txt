@@ -1,0 +1,36 @@
+##############################
+# Config for PhOneV2
+##############################
+# Only long int
+# Do not change param. order!
+# Do not go above 30 col/line
+# do not use empty lines
+##############################
+# Name: startinMin (>=0)
+#Normal: 0
+0
+##############################
+# Name: sampleperiodSec 
+# Arduino:
+#   Set to  k*8-1 for k>0
+# STM32:
+#   >= 1
+#Normal:  31
+31
+##############################
+# Name: sampleperiodus
+# STM32:
+#   1820 <= x <= 5,000,000
+#   Can go below 1820 (550Hz)
+#   but not tested.
+#Normal:  2500 <=> 400 Hz
+#Basic:  10000 <=> 100 Hz
+10000
+##############################
+# Name:  timestampsEnable
+#   Enable diff. millisecond
+#   timestamps in *.DAT
+# STM32: 
+#   1=true  0=false
+1
+# End
