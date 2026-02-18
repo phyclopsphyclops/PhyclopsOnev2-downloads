@@ -1,0 +1,56 @@
+
+Quickstart:
+=============
+		
+1) Solder in place the capacitors:	 
+
+	2 x 100 uF     (Make sure the polarity/orientation is as indicated on the board)
+
+
+2) Solder in place the pin headers:
+
+	2xpin  = 5V, GND               (power pins, battery preferred i.e. a single 18650 or two 18650 in parallel)
+
+	4xpin  = IN0, IN1, IN2, IN3    (ADC input pins)
+
+
+3) SDcard
+
+	Copy the configuration file "phcfg.txt"  (<download link>) to an empty micro SDcard (Standard formatting: FAT)
+
+-----------------------------
+
+4) Power On by connecting GND,5V to your power source.
+	The LED with start flashing once every 5-8 seconds.
+	
+5) Insert SDcard
+    The	LED will stop flashing and be permanently on or off for about 10 sec, followed by a short flicker.
+        
+6) Recording in progress
+	The LED will flash approximately once every 15 seconds
+	
+7) Recover data
+	Simply remove the SDcard and read/process the recorded data with the provided scripts (<link>) 
+	
+8) Continue recording
+	Press the RESET button (blue) on the board. 
+	Re-insert the SDcard as in Step 5) and the recording will continue.
+	(Files on the SDcard are *never* overwritten or deleted by the device so data cannot be lost unless files are removed manually)
+	Note that all timestamps recorded are *relative* to the time of last power-on or time of last reset.
+		
+9) Safe shutdown
+	Remove the SDcard
+	Disconnect from power
+	
+
+
+
+Battery power:							   		Max. Runtime
+==============================================================
+	2x 18650 4.2V (parallel, 4000mAh)				19 days
+	1x 18650 4.2V (2000mAh)         				10 days
+	3x AA 4.5V    (series, ~2000 mAh)                tbd
+
+NOTE: There is no overdischarge protection, so in order to avoid damage to the SDcard it is recommended to
+      shutdown the device and renew batteries *before* the maximum runtime is reached.
+

@@ -1,0 +1,26 @@
+
+For reading the recorded voltage data into Python or R see the example scripts in the respective subfolders: 
+
+	https://github.com/phyclopsphyclops/PhyclopsOnev2-downloads/tree/main/R
+	https://github.com/phyclopsphyclops/PhyclopsOnev2-downloads/tree/main/python
+	
+Here are some example datafiles
+
+	https://github.com/phyclopsphyclops/PhyclopsOnev2-downloads/tree/main/datafiles_example
+
+*.CSV (text format) records voltages in uVolt (microVolt) as integer values.
+	The sampling time is 31 seconds (One sample every 31 seconds)
+
+*.DAT (binary format) records voltages in mVolt (miliVolt) as float values.
+	The sampling time is 100 mSec (10 samples per second)
+	
+
+
+The best way to avoid confusion is to start a recording with an SD card that 
+contains only the "phcfg.txt" config file and to always delete the *.DAT and 
+the *.CSV files at the end of a recording session.
+	
+
+If the device starts a new recording and 
+there are existing *.DAT files on the SDcard, the device will _create_ a new *.DAT file.
+there is an existing *.CSV file on the SDcard, the device will _append_ to the existing file.

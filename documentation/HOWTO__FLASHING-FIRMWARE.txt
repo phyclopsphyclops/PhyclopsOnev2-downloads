@@ -1,0 +1,15 @@
+
+We have shipped a pre-flashed device to you, but If you feel adventurous ...
+
+
+Firmware download
+=====================
+https://github.com/phyclopsphyclops/PhyclopsOnev2-downloads/tree/main/firmware
+
+
+Firmware needs to be flashed through the 4-pin  header  (GND, SWDIO, SWCLK, 3V3)
+
+For flashing we recommend using a BlackMagicProbe (https://1bitsquared.com/products/black-magic-probe) 
+in conjunction with the GNU software debugger gdb.
+
+(Doing this is not for the faint of heart!)
