@@ -23,7 +23,7 @@ Quickstart:
 -----------------------------
 
 4) Power On by connecting GND,5V to your power source.
-	The LED with start flashing once every 5-8 seconds.
+	The LED will start to flash once every 5-8 seconds.
 	
 5) Insert SDcard
     The	LED will stop flashing and be permanently on or off for about 10 sec, followed by a short flicker.
@@ -33,6 +33,7 @@ Quickstart:
 	
 7) Recover data
 	Simply remove the SDcard and read/process the recorded data with the provided scripts:
+	
 		https://github.com/phyclopsphyclops/PhyclopsOnev2-downloads/tree/main/R
 		https://github.com/phyclopsphyclops/PhyclopsOnev2-downloads/tree/main/python
 		
