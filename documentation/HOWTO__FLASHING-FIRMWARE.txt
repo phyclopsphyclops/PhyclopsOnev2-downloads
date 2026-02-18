@@ -1,5 +1,5 @@
 
-We have shipped a pre-flashed device to you, but If you feel adventurous ...
+We have shipped a pre-flashed device to you, so you won't need to do this, but If you feel adventurous ...
 
 
 Firmware download
