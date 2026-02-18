@@ -1,10 +1,11 @@
 
 "phcfg.txt" is the configuration file that needs to be present on the SDcard.
 
+If this file is not present, cannot be read or has the wrong content the 
+device will not start the recording!
+
 download:   
 https://github.com/phyclopsphyclops/PhyclopsOnev2-downloads/blob/main/sdcard_example/phcfg.txt
 
-If this file is not present, cannot be read or has the wrong content the 
-device will not start the recording!
 
 We recommend to NOT change the contents of the phcfg.txt file!
