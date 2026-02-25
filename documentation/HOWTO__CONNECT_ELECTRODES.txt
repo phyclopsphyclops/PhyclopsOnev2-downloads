@@ -1,0 +1,23 @@
+
+The device operates with two pairs of electrodes, a total of four electrodes,
+which are to be connected to the ADC inputs on the board IN0,IN1,IN2,IN3 as follows:
+
+E1pos  E1neg    E2pos    E2neg
+ |      |        |        |
+ |      |        |        |
+ v      v        v        v
+IN0    IN1      IN2      IN3
+
+
+Each electrode pair has its own recording channel. Pair E1 corresponds to channel1
+and pair E2 to channel2.
+
+Each channel records the voltage *differential* between the electrodes of its
+corresponding electrode pair as follows:
+
+ch1:    E1_Volt :=  E1pos  -  E1neg
+ch2:    E2_Volt :=  E2pos  -  E2neg
+
+The voltages E1_Volt, E2_Volt are then recorded in the datafiles E1E2_*.DAT  and
+TMHMPRL.CSV.
+
