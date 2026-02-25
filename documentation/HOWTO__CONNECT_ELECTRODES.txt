@@ -18,6 +18,6 @@ corresponding electrode pair as follows:
 ch1:    E1_Volt :=  E1pos  -  E1neg
 ch2:    E2_Volt :=  E2pos  -  E2neg
 
-The voltages E1_Volt, E2_Volt are then recorded in the datafiles E1E2_*.DAT  and
+The voltages E1_Volt, E2_Volt are then written to the datafiles E1E2_*.DAT  and
 TMHMPRL.CSV.
 
